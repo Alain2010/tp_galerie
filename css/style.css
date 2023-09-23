@@ -1,0 +1,30 @@
+body{
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid blue;
+  background-image: url(../images/bg.jpg);
+}
+img{
+  width: 13em;
+  height: 13em;
+  margin: 0.85em;
+  min-width: auto;
+}
+.galerie{
+  min-width: 10em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  color: rgb(9, 199, 9);
+}
+img{
+  filter: grayscale(70%);
+}
+img:hover{
+  filter: grayscale(0);
+}

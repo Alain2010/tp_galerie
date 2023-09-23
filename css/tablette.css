@@ -1,0 +1,42 @@
+html{
+    background-color: wheat;
+}
+img{
+    width: 8em;
+    height: 8em;
+}
+body{
+    position: relative;
+    top: 2em;
+    width: 55%;
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 3.5em;
+    padding-bottom: 1.2em;
+}
+.galerie{
+    display: flex;
+    flex-flow: row wrap;
+}
+img{
+    filter: grayscale(75%);
+    margin: 0.2em;
+}
+img:hover{
+    filter: grayscale(0);
+}
+h1{
+    width: 100%;
+    text-align: left;
+    color: rgb(8, 240, 8);
+}
+.bas_de_page{
+    width: 10em;
+    height: 2em;
+    padding-top: 0.8em;
+    text-align: right;
+    font-size: 1.5em;
+    text-align: left;
+}

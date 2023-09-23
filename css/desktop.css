@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+    background-image: url(../images/bg.jpg);
+}
+.galerie{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2em;
+}
+img{
+    width: 8em;
+    height: 8em;
+    margin: 0.5em;
+}
+h1{
+    position: relative;
+    top: 1em;
+    width: 100%;
+    text-align: left;
+    color: rgb(10, 221, 10);
+}
+.galerie img:hover{
+    
+}
+img{
+    filter: grayscale(70%);
+}
+img:hover{
+    filter: grayscale(0);
+}
+.last{
+    width: 9em;
+    height: 2em;
+    text-align: center;
+}
